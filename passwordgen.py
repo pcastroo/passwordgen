@@ -5,6 +5,9 @@ upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers = "0123456789"
 symbols = "[]{}()*;/,._-"
 
+if input("Symbols? (y/n): ").lower().strip()[:1] == "n":
+    symbols = ""
+
 all = lower + upper + numbers + symbols
 
 length = 16
