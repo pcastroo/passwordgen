@@ -1,4 +1,4 @@
-# SCANMAP
+# PASSWORD GENERATOR
 <p align="center"><img src="https://itsecuritycentre.co.uk/images/Password_asterix.jpg" width="300"></p>
 
 This script generates strong password with symbols or not.
