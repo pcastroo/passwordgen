@@ -1,12 +1,17 @@
 import random
+import sys
 
 lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers = "0123456789"
 symbols = "[]{}()*;/,._-"
 
-if input("Symbols? (y/n): ").lower().strip()[:1] == "n":
-    symbols = ""
+try:
+    if input("Symbols? (y/n): ").lower().strip()[:1] == "n":
+        symbols = ""
+except KeyboardInterrupt:
+    print ("\nbyee!! \n")
+    sys.exit()
 
 all = lower + upper + numbers + symbols
 

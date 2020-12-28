@@ -1,5 +1,5 @@
 # PASSWORD GENERATOR
-<p align="center"><img src="https://itsecuritycentre.co.uk/images/Password_asterix.jpg" width="300"></p>
+<p align="center"><img src="https://cybernews.com/wp-content/uploads/2020/08/how-to-create-a-password-02-750x375.png" width="300"></p>
 
 This script generates strong password with symbols or not.
 
